@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tweets-app/static/css/main.9825db11.chunk.css",
+    "main.js": "/tweets-app/static/js/main.683f70b5.chunk.js",
+    "main.js.map": "/tweets-app/static/js/main.683f70b5.chunk.js.map",
+    "runtime-main.js": "/tweets-app/static/js/runtime-main.63664f19.js",
+    "runtime-main.js.map": "/tweets-app/static/js/runtime-main.63664f19.js.map",
+    "static/js/2.7bf19561.chunk.js": "/tweets-app/static/js/2.7bf19561.chunk.js",
+    "static/js/2.7bf19561.chunk.js.map": "/tweets-app/static/js/2.7bf19561.chunk.js.map",
+    "static/js/3.a4d7f644.chunk.js": "/tweets-app/static/js/3.a4d7f644.chunk.js",
+    "static/js/3.a4d7f644.chunk.js.map": "/tweets-app/static/js/3.a4d7f644.chunk.js.map",
+    "index.html": "/tweets-app/index.html",
+    "static/css/main.9825db11.chunk.css.map": "/tweets-app/static/css/main.9825db11.chunk.css.map",
+    "static/js/2.7bf19561.chunk.js.LICENSE.txt": "/tweets-app/static/js/2.7bf19561.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/tweets-app/static/media/slkscr.f9b986d3.ttf",
+    "static/media/arrow.67f326fd.svg": "/tweets-app/static/media/arrow.67f326fd.svg",
+    "static/media/buttonGoogle.f2256fdf.svg": "/tweets-app/static/media/buttonGoogle.f2256fdf.svg",
+    "static/media/emptyHeart.0a53b79e.svg": "/tweets-app/static/media/emptyHeart.0a53b79e.svg",
+    "static/media/full-heart.cfe63298.svg": "/tweets-app/static/media/full-heart.cfe63298.svg",
+    "static/media/garbage.521b1cb8.svg": "/tweets-app/static/media/garbage.521b1cb8.svg",
+    "static/media/header-title.0f17436c.svg": "/tweets-app/static/media/header-title.0f17436c.svg",
+    "static/media/imglogout.a36fdd73.svg": "/tweets-app/static/media/imglogout.a36fdd73.svg",
+    "static/media/logo.d70e54fc.svg": "/tweets-app/static/media/logo.d70e54fc.svg",
+    "static/media/post.dbd261de.svg": "/tweets-app/static/media/post.dbd261de.svg",
+    "static/media/smalllogo.5038d75e.svg": "/tweets-app/static/media/smalllogo.5038d75e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63664f19.js",
+    "static/js/2.7bf19561.chunk.js",
+    "static/css/main.9825db11.chunk.css",
+    "static/js/main.683f70b5.chunk.js"
+  ]
+}
