@@ -1,0 +1,69 @@
+.start-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.is-logged-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 430px;
+}
+
+.copyright-footer {
+  position: absolute;
+  bottom: 0px;
+  font-family: 'Fira Code';
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.copyright {
+  color: #60265B;
+  font-family: 'Fira Code';
+  font-weight: 450;
+}
+
+.beta {
+  color:#F50D5A
+}
+
+@media (min-width:320px) and (max-width:900px) {
+
+  .start-page{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo{
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .is-logged-container{
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .logging-container{
+    height: 200px;
+  }
+
+  .welcome-title{
+    font-size: 36px;
+  }
+
+  .logging-title{
+    font-size: 18px;
+  }
+
+  .copyright-footer{
+    font-size: 14px;
+    position: relative;
+    padding-top: 46px;
+  }
+
+}

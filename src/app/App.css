@@ -1,0 +1,21 @@
+*{
+  background-color: #2E132C;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  } 
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url('../assets/fonts/silkscreen/slkscr.ttf');
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url('../assets/fonts/fira-code/FiraCode-Regular.otf');
+}
+
+
+
+

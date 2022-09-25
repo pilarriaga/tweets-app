@@ -1,0 +1,92 @@
+.logging-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+}
+
+.welcome-title {
+  font-family: 'Silkscreen';
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.logging-title {
+  font-family: 'Fira Code';
+  font-size: 24px;
+  font-weight: 450;
+  margin: 0;
+}
+
+.button-logging {
+  border-style: none;
+  width: 100%;
+  height: 58px;
+  border-radius: 5px;
+}
+
+.google-button{
+  border-radius: 5px;
+  width: 100%;
+  border-style: none;
+}
+
+.google-button:hover {
+  transform: scale(1.1);
+}
+
+.google-button:active {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+
+.google-button:focus {
+  border: 1px solid #FFFFFF; 
+}
+
+@media (min-width: 280px) and (max-width:768px){
+
+    .superContainerLogging{
+        display: block;
+    }
+
+    .supercontainer{
+        display: block;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .loggingContainer{
+        margin: auto;
+        position: absolute;
+        bottom: 20px;
+        display: block;
+        padding-left: 0px;
+        margin-left: 10px; 
+    }
+
+    .welcomeTittle{
+        color: white;
+        font-size: 15px;
+        font-family: 'Silkscreen';
+        font-weight: bold;
+        text-align: start;
+        padding-left: 40px;
+        margin-bottom: 40px;
+        padding-right: 10px;
+    }
+
+    .googleButton{
+        border-style: none;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 250px;
+        display: block;        
+    }
+
+    .buttonLogging{
+        border-style: none;
+    }
+}

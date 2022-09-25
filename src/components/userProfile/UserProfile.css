@@ -1,0 +1,155 @@
+.profile-header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-header {
+  display: flex;
+  max-width: 605px;
+  width: 100%;
+  height: 52px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.back-button {
+  height: 28px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.back-button:active {
+  transform: scaleY(1.1) scaleX(1.1);
+}
+
+.back-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width: 25px;
+  height: 28px;
+  border-style: none;
+}
+
+.header-username {
+  height: 28px;
+  font-family: 'Silkscreen';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-logout {
+  height: 35px;
+  width: 116px;
+  background-color: #F50D5A;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-style: none;
+  font-family: 'Silkscreen';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #250C23;
+  cursor: pointer;
+}
+
+.button-logout:active {
+  transform: scaleY(1.1) scaleX(1.1);
+}
+
+.img-logout {
+  width: 22px;
+  height: 18px;
+  color: #250C23;
+  background-color: #F50D5A;
+}
+
+.profile-main-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-main{
+  display: flex;
+  max-width: 605px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.profile-photo {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.user-color {
+  color: #150714;
+  margin-bottom: 16px;
+  letter-spacing: -0.333333px;
+  font-family: 'Silkscreen';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.tabs-buttons {
+  width: 100%;
+}
+
+.tabs {
+  border-style: none;
+  width: 50%;
+  height: 46px;
+  font-family: 'Silkscreen';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  background-color: black;
+  color: #60265B;  
+  cursor: pointer;
+}
+
+.tabs.tabs-light {
+  background-color: #60265B;
+  color:black;
+}
+
+@media (min-width: 280px) and (max-width:900px){
+
+  .header-username{
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 4px;
+  }
+
+  .profile-photo{
+    width: 105px;
+    height: 105px;
+  }
+
+  .user-color{
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .tabs{
+    font-size: 20px;
+    line-height: 20px;
+    height: 35px;
+  }
+
+}
