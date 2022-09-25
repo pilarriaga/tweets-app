@@ -92,7 +92,7 @@ function UserProfile() {
           // Limpiamos el listener creado cuando se desmonta el componente
           unsuscribePosts();
         };
-      } else {navigate('/tweets')};
+      } else {navigate('/tweets-app')};
     })
   }, [navigate]);
 

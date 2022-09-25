@@ -29,7 +29,7 @@ function App() {
         <Route exact path="/" element={<Start/>}/> 
         <Route path="/feed"element={<Feed/>}/>
         <Route path="/userprofile"element={<UserProfile/>}/>
-        <Route path="/tweets" element={<Start/>}/>
+        <Route path="/tweets-app" element={<Start/>}/>
       </Routes>
   </div>
   );

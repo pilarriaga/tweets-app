@@ -82,7 +82,7 @@ function Feed() {
             // Limpiamos el listener creado cuando se desmonta el componente
             unsuscribeTweets();
           };
-        } else {navigate('/tweets')}
+        } else {navigate('/tweets-app')}
       })
     },[navigate]);  
     
